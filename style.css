@@ -2,7 +2,11 @@
 body {
     margin: 0px;
     font-family: 'Montserrat', sans-serif;
+    color: #4B4B55;
 }
+
+
+/*barra de navegacion*/
 
 .nav-bar {
     display: flex;
@@ -13,7 +17,6 @@ body {
     padding-top: 20px;
     font-weight: 700;
     font-size: 15px;
-    color: #4B4B55;
 }
 
 li {
@@ -39,44 +42,93 @@ a:hover {
 
 /*FIN comportamiento de links*/
 
-.principal-section {
-    width: 100vw;
-}
-
-.principal-section img {
+section {
     width: 100vw;
     height: 600px;
 }
 
-.text-content {
+img {
+    width: 100vw;
+    height: 600px;
+}
+
+.text-content-principal-section {
     height: 300px;
     width: 450px;
-    display: flex;
-    flex-direction: column;
     position: relative;
     top: -400px;
     left: 100px;
-    color: #4B4B55;
+    margin: 0px;
 }
 
-.text-content h1 {
+.text-content-principal-section h1 {
     font-weight: 700;
     font-size: 80px;
     margin: 0px;
 }
 
-.text-content h2 {
+.text-content-principal-section h2 {
     margin: 0px;
     font-size: 18px;
 }
 
-.text-content P {
+.text-content-principal-section P {
     font-weight: 700;
-    font-size: 20px;
+    font-size: 25px;
     font-family: 'Satisfy', cursive;
     margin: 0px;
+    /*copie y pegue de internet un estilo fachero de degradado de texto*/
     background: -webkit-linear-gradient(left top, #DA86A9, #F28C8E);
     background: linear-gradient(to bottom right, #DA86A9, #F28C8E);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+
+/*seccion de skills*/
+
+.skills-section {
+    width: 100vw;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.skills-section img {
+    width: 100px;
+    height: 95px;
+}
+
+.text-skills-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.text-skills-section h1 {
+    font-weight: 800;
+}
+
+.text-skills-section h3 {
+    font-weight: 300;
+}
+
+.icons-skills-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.icons-skills-section p {
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
+
+.icons-skills-section img {
+    display: flex;
 }
