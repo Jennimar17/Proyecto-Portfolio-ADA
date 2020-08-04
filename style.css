@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Satisfy&display=swap');
 body {
     margin: 0px;
     font-family: 'Montserrat', sans-serif;
@@ -21,7 +21,7 @@ li {
 }
 
 
-/*comportamiento de links*/
+/*INICIO comportamiento de links*/
 
 a:link {
     text-decoration: none;
@@ -31,6 +31,13 @@ a:link {
 a:visited {
     color: #4B4B55;
 }
+
+a:hover {
+    color: #F28C8E;
+}
+
+
+/*FIN comportamiento de links*/
 
 .principal-section {
     width: 100vw;
@@ -58,8 +65,18 @@ a:visited {
     margin: 0px;
 }
 
+.text-content h2 {
+    margin: 0px;
+    font-size: 18px;
+}
+
 .text-content P {
     font-weight: 700;
-    font-size: 15px;
+    font-size: 20px;
+    font-family: 'Satisfy', cursive;
     margin: 0px;
+    background: -webkit-linear-gradient(left top, #DA86A9, #F28C8E);
+    background: linear-gradient(to bottom right, #DA86A9, #F28C8E);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
