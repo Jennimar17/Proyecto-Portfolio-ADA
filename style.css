@@ -43,7 +43,6 @@ a:hover {
 /*FIN comportamiento de links*/
 
 section {
-    width: 100vw;
     height: 600px;
 }
 
@@ -95,8 +94,8 @@ img {
 }
 
 .skills-section img {
-    width: 100px;
-    height: 95px;
+    width: 130px;
+    height: 125px;
 }
 
 .text-skills-section {
@@ -127,8 +126,4 @@ img {
     font-weight: 700;
     display: flex;
     justify-content: center;
-}
-
-.icons-skills-section img {
-    display: flex;
 }
