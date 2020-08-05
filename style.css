@@ -24,6 +24,13 @@ li {
     margin-right: 18px;
 }
 
+.active-buttom {
+    border: 1px solid #F3BACB;
+    background-color: #EFD3D9;
+    border-radius: 100px;
+    padding: 10px;
+}
+
 
 /*INICIO comportamiento de links*/
 
