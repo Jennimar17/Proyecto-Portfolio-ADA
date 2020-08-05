@@ -24,11 +24,19 @@ li {
     margin-right: 18px;
 }
 
-.active-buttom {
-    border: 1px solid #F3BACB;
-    background-color: #EFD3D9;
-    border-radius: 100px;
+
+/*boton lo que hago oscuro*/
+
+.dark-buttom {
+    background-color: #A7007D;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 10px;
+    border-radius: 100px;
+    font-weight: 600;
+    width: 150px;
 }
 
 
@@ -62,8 +70,10 @@ img {
 .text-content-principal-section {
     height: 300px;
     width: 450px;
+    display: flex;
+    flex-direction: column;
     position: relative;
-    top: -450px;
+    top: -470px;
     left: 100px;
     margin: 0px;
 }
@@ -79,7 +89,7 @@ img {
     font-size: 18px;
 }
 
-.text-content-principal-section P {
+.subtitle {
     font-weight: 700;
     font-size: 25px;
     font-family: 'Satisfy', cursive;
