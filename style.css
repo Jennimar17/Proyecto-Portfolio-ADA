@@ -3,43 +3,8 @@ body {
     margin: 0px;
     font-family: 'Montserrat', sans-serif;
     color: #4B4B55;
+    background-color: #EFE2E9;
     overflow-x: hidden;
-}
-
-
-/*barra de navegacion*/
-
-nav {
-    width: 100%;
-    height: auto;
-    padding: 10px;
-}
-
-.nav-bar {
-    display: flex;
-    align-items: center;
-    list-style-type: none;
-    font-weight: 700;
-    font-size: 15px;
-}
-
-li {
-    margin-right: 35px;
-}
-
-
-/*boton lo que hago oscuro*/
-
-.dark-buttom {
-    background-color: #A7007D;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    border-radius: 100px;
-    font-weight: 600;
-    width: 150px;
 }
 
 
@@ -59,7 +24,79 @@ a:hover {
 }
 
 
-/*FIN comportamiento de links*/
+/*barra de navegacion*/
+
+nav {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    display: flex;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+li {
+    margin-right: 35px;
+}
+
+
+/*estilo de boton*/
+
+.dark-buttom {
+    background-color: #A7007D;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 100px;
+    font-weight: 600;
+    width: 150px;
+}
+
+
+/*seccion principal*/
+
+section {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.text-content-principal-section {
+    height: 300px;
+    width: 450px;
+}
+
+.text-content-principal-section h2 {
+    font-size: 18px;
+}
+
+.text-content-principal-section h1 {
+    font-weight: 700;
+    font-size: 80px;
+    margin: 0px;
+}
+
+#subtitle {
+    font-weight: 700;
+    font-size: 25px;
+    font-family: 'Satisfy', cursive;
+    margin: 0px;
+    /*copie y pegue de internet un estilo fachero de degradado de texto*/
+    background: -webkit-linear-gradient(left top, #DA86A9, #F28C8E);
+    background: linear-gradient(to bottom right, #DA86A9, #F28C8E);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
 
 /*seccion de skills*/
