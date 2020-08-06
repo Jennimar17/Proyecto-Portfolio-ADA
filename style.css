@@ -51,6 +51,7 @@ li {
 
 .dark-buttom {
     background-color: #A7007D;
+    border: 0px;
     color: white;
     display: flex;
     justify-content: center;
@@ -223,4 +224,5 @@ li {
     border-radius: 100px;
     font-weight: 600;
     width: 150px;
+    cursor: pointer;
 }
