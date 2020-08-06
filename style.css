@@ -9,19 +9,22 @@ body {
 
 /*barra de navegacion*/
 
+nav {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
 .nav-bar {
     display: flex;
     align-items: center;
     list-style-type: none;
-    position: absolute;
-    margin-left: 20px;
-    padding-top: 20px;
     font-weight: 700;
     font-size: 15px;
 }
 
 li {
-    margin-right: 18px;
+    margin-right: 35px;
 }
 
 
@@ -57,49 +60,6 @@ a:hover {
 
 
 /*FIN comportamiento de links*/
-
-section {
-    height: 600px;
-}
-
-img {
-    width: 100vw;
-    height: 700px;
-}
-
-.text-content-principal-section {
-    height: 300px;
-    width: 450px;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    top: -470px;
-    left: 100px;
-    margin: 0px;
-}
-
-.text-content-principal-section h1 {
-    font-weight: 700;
-    font-size: 80px;
-    margin: 0px;
-}
-
-.text-content-principal-section h2 {
-    margin: 0px;
-    font-size: 18px;
-}
-
-.subtitle {
-    font-weight: 700;
-    font-size: 25px;
-    font-family: 'Satisfy', cursive;
-    margin: 0px;
-    /*copie y pegue de internet un estilo fachero de degradado de texto*/
-    background: -webkit-linear-gradient(left top, #DA86A9, #F28C8E);
-    background: linear-gradient(to bottom right, #DA86A9, #F28C8E);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
 
 
 /*seccion de skills*/
