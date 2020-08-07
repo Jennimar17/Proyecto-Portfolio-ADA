@@ -111,20 +111,19 @@ li {
 
 .skills-section {
     width: 100%;
+    height: auto;
     background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
+    padding-top: 10px;
+    text-align: center;
 }
 
 .text-skills-section {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding-top: 50px;
-    text-align: center;
 }
 
 .text-skills-section h1 {
@@ -136,26 +135,18 @@ li {
 }
 
 .icons-skills-section {
-    width: 30%;
-    max-height: 600px;
+    width: 50%;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
-    padding-bottom: 50px;
-    padding-top: 20px;
 }
 
 .icons-skills-section img {
-    width: 100%;
-    height: auto;
+    margin: 20px;
 }
 
 .icons-skills-section p {
     font-weight: 700;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 
@@ -179,8 +170,8 @@ li {
 .quote-section p {
     font-size: 30px;
     font-family: 'Satisfy', cursive;
-    display: flex;
     text-align: center;
+    display: flex;
 }
 
 
@@ -193,7 +184,8 @@ li {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 50px;
+    text-align: center;
+    padding-top: 10px;
 }
 
 .projects-section h1 {
@@ -211,7 +203,11 @@ li {
 
 .bar-projects button {
     margin-right: 35px;
+    margin-bottom: 35px;
 }
+
+
+/*boton claro*/
 
 .light-buttom {
     color: #4B4B55;
