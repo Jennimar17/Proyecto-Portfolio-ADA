@@ -243,6 +243,16 @@ footer {
 }
 
 
+/*iconos de redes sociales*/
+
+.social-media-icons {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    font-size: 30px;
+}
+
+
 /*comportamiento de links barra nav de footer*/
 
 footer a:link {
