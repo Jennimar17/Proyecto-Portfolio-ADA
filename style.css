@@ -10,18 +10,27 @@ body {
 }
 
 
-/*comportamiento de links barra nav principal*/
+/*comportamiento de links barra nav seccion y footer*/
 
-nav a:link {
+nav,
+section,
+footer,
+a:link {
     text-decoration: none;
     color: #4B4B55;
 }
 
-nav a:visited {
+nav,
+section,
+footer,
+a:visited {
     color: #4B4B55;
 }
 
-nav a:hover {
+nav,
+section,
+footer,
+a:hover {
     color: #F28C8E;
 }
 
