@@ -10,14 +10,14 @@ body {
 }
 
 
-/*INICIO comportamiento de links*/
+/*comportamiento de links barra nav principal*/
 
-a:link {
+nav a:link {
     text-decoration: none;
     color: #4B4B55;
 }
 
-a:visited {
+nav a:visited {
     color: #4B4B55;
 }
 
@@ -186,6 +186,7 @@ li {
     align-items: center;
     text-align: center;
     padding-top: 10px;
+    padding-bottom: 50px;
 }
 
 .projects-section h1 {
@@ -221,4 +222,38 @@ li {
     font-weight: 600;
     width: 150px;
     cursor: pointer;
+}
+
+footer {
+    width: 100%;
+    height: 200px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 20px;
+    /*estilo fachero de fondo de la seccion quote*/
+    background-image: linear-gradient(to top, #ff5487, #f14485, #e33283, #d41f82, #c40080);
+}
+
+.footer-bar {
+    font-weight: 400;
+}
+
+
+/*comportamiento de links barra nav de footer*/
+
+footer a:link {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:visited {
+    color: white;
+}
+
+footer a:hover {
+    color: #F28C8E;
 }
