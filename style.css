@@ -90,12 +90,14 @@ li {
 
 .text-content-principal-section h2 {
     font-size: 18px;
+    color: #4B4B55;
 }
 
 .text-content-principal-section h1 {
     font-weight: 700;
     font-size: 80px;
     margin: 0px;
+    color: #4B4B55;
 }
 
 #subtitle {
@@ -249,6 +251,7 @@ footer {
 
 .footer-bar {
     font-weight: 400;
+    display: flex;
 }
 
 
