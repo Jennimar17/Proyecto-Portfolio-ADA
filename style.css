@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Satisfy&display=swap');
 body {
+    width: 100%;
     font-family: 'Montserrat', sans-serif;
     color: #4B4B55;
     background-color: #EFE2E9;
@@ -82,8 +83,8 @@ li {
 /*seccion principal*/
 
 .container-principal-section {
-    width: z;
-    height: 600px;
+    width: 100%;
+    height: auto;
     display: flex;
     justify-content: space-between;
 }
@@ -183,7 +184,7 @@ li {
 
 .quote-section {
     width: 100%;
-    height: 400px;
+    height: auto;
     color: white;
     display: flex;
     flex-direction: column;
@@ -255,7 +256,7 @@ li {
 
 footer {
     width: 100%;
-    height: 200px;
+    height: auto;
     color: white;
     display: flex;
     flex-direction: column;
@@ -343,7 +344,7 @@ footer a:hover {
         display: none;
     }
     li {
-        margin-right: 15px;
+        margin-right: 10px;
     }
     .footer-bar {
         font-weight: 400;
@@ -356,16 +357,10 @@ footer a:hover {
         height: auto;
         padding-right: 20px;
     }
-    .skills-section {
-        width: 600px;
-    }
-    .quote-section {
-        width: 600px;
-    }
-    .projects-section {
-        width: 600px;
-    }
-    footer {
-        width: 600px;
+    .skills-section,
+    .quote-section,
+    .projects-section,
+    #contact-me {
+        width: 100%;
     }
 }
