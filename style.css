@@ -75,7 +75,7 @@ li {
 /*seccion principal*/
 
 .container-principal-section {
-    width: 100%;
+    width: z;
     height: 600px;
     display: flex;
     justify-content: space-between;
@@ -139,6 +139,10 @@ li {
 
 .text-skills-section h1 {
     font-weight: 800;
+}
+
+#title-media-query {
+    display: none;
 }
 
 .text-skills-section h3 {
@@ -278,4 +282,40 @@ footer a:visited {
 
 footer a:hover {
     color: #F28C8E;
+}
+
+@media(max-width:600px) {
+    .img-principal-section {
+        display: none;
+    }
+    .container-principal-section {
+        width: auto;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding: 10px;
+    }
+    .text-content-principal-section {
+        padding-top: 0px;
+        padding-left: 0px;
+    }
+    .text-content-principal-section h2 {
+        font-size: 25px;
+        margin: 2px;
+    }
+    .text-content-principal-section h1 {
+        display: none;
+    }
+    #title-media-query {
+        display: flex;
+        justify-content: center;
+        font-size: 50px;
+    }
+    #subtitle {}
+    .container-principal-section a {
+        display: flex;
+        justify-content: center;
+        font-size: small;
+    }
 }
