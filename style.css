@@ -342,9 +342,16 @@ footer a:hover {
     .nav-bar {
         display: none;
     }
+    li {
+        margin-right: 15px;
+    }
+    .footer-bar {
+        font-weight: 400;
+        display: flex;
+        align-items: stretch;
+    }
     #burger-menu-query {
         display: flex;
-        justify-content: flex-end;
         width: 100%;
         height: auto;
         padding-right: 20px;
@@ -356,6 +363,9 @@ footer a:hover {
         width: 600px;
     }
     .projects-section {
+        width: 600px;
+    }
+    .contact-me {
         width: 600px;
     }
 }
