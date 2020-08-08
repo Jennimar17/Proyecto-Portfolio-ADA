@@ -113,8 +113,10 @@ li {
 }
 
 .img-principal-section img {
-    height: 600px;
-    width: 500px;
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
 }
 
 
@@ -279,3 +281,6 @@ footer a:visited {
 footer a:hover {
     color: #F28C8E;
 }
+
+
+/*media querys*/
