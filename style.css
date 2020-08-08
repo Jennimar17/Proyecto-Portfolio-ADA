@@ -2,46 +2,12 @@
 body {
     font-family: 'Montserrat', sans-serif;
     color: #4B4B55;
-    background-color: #EFE2E9;
     margin: 0px;
-    display: flex;
-    flex-direction: column;
     overflow-x: hidden;
 }
 
 
-/*comportamiento de links barra nav seccion y footer*/
-
-nav,
-section,
-footer,
-a:link {
-    text-decoration: none;
-    color: #4B4B55;
-}
-
-nav,
-section,
-footer,
-a:visited {
-    color: #4B4B55;
-}
-
-nav,
-section,
-footer,
-a:hover {
-    color: #F28C8E;
-}
-
-
 /*barra de navegacion*/
-
-nav {
-    width: 25%;
-    height: auto;
-    padding: 5px;
-}
 
 .nav-bar {
     display: flex;
@@ -49,10 +15,13 @@ nav {
     list-style-type: none;
     font-weight: 700;
     font-size: 15px;
+    background-color: #EFE2E9;
+    margin: 0px;
+    padding: 20px;
 }
 
 li {
-    margin-right: 35px;
+    margin-right: 30px;
 }
 
 
@@ -81,18 +50,27 @@ li {
 
 /*seccion principal*/
 
+
+/*imagen solopara media query*/
+
+#img-media-query {
+    display: none;
+}
+
 .container-principal-section {
     width: 100%;
-    height: auto;
+    height: 600px;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    background-color: #EFE2E9;
 }
 
 .text-content-principal-section {
-    height: 300px;
-    width: 450px;
-    padding-top: 120px;
-    padding-left: 80px;
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
 }
 
 .text-content-principal-section h2 {
@@ -107,28 +85,15 @@ li {
     color: #4B4B55;
 }
 
-
-/*imagen solopara media query*/
-
-#img-media-query {
-    display: none;
-}
-
 #subtitle {
-    font-weight: 700;
     font-size: 25px;
+    font-weight: 700;
     font-family: 'Satisfy', cursive;
-    margin: 0px;
     /*copie y pegue de internet un estilo fachero de degradado de texto*/
     background: -webkit-linear-gradient(left top, #DA86A9, #F28C8E);
     background: linear-gradient(to bottom right, #DA86A9, #F28C8E);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
-
-.img-principal-section img {
-    height: 600px;
-    width: 500px;
 }
 
 
@@ -141,22 +106,12 @@ li {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 40px;
-    padding-top: 10px;
     text-align: center;
-}
-
-.text-skills-section {
-    display: flex;
-    flex-direction: column;
+    padding-bottom: 15px;
 }
 
 .text-skills-section h1 {
     font-weight: 800;
-}
-
-#title-media-query {
-    display: none;
 }
 
 .text-skills-section h3 {
@@ -164,7 +119,8 @@ li {
 }
 
 .icons-skills-section {
-    width: 50%;
+    width: 600px;
+    height: auto;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -184,23 +140,20 @@ li {
 .quote-section {
     width: 100%;
     height: auto;
-    color: white;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-content: center;
     align-items: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    text-align: center;
+    padding: 20px;
+    color: white;
     /*estilo fachero de fondo de la seccion quote*/
     background-image: linear-gradient(to bottom, #ff5487, #f14485, #e33283, #d41f82, #c40080);
 }
 
 .quote-section p {
-    font-size: 30px;
     font-family: 'Satisfy', cursive;
-    text-align: center;
-    display: flex;
+    font-size: 30px;
+    margin-bottom: 0px;
 }
 
 
@@ -212,23 +165,23 @@ li {
     background-color: white;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 50px;
+    padding-bottom: 35px;
 }
 
 .projects-section h1 {
     font-weight: 800;
+    display: flex;
+    justify-content: center;
 }
 
 .bar-projects {
     width: 50%;
     height: auto;
     display: flex;
-    align-items: center;
     justify-content: center;
-    padding-top: 20px;
 }
 
 .bar-projects button {
@@ -270,6 +223,7 @@ footer {
 .footer-bar {
     font-weight: 400;
     display: flex;
+    background-color: transparent;
 }
 
 
@@ -280,6 +234,31 @@ footer {
     align-items: center;
     list-style-type: none;
     font-size: 30px;
+}
+
+
+/*comportamiento de links barra nav seccion y footer*/
+
+nav,
+section,
+footer,
+a:link {
+    text-decoration: none;
+    color: #4B4B55;
+}
+
+nav,
+section,
+footer,
+a:visited {
+    color: #4B4B55;
+}
+
+nav,
+section,
+footer,
+a:hover {
+    color: #F28C8E;
 }
 
 
@@ -317,7 +296,7 @@ footer a:hover {
         padding-left: 0px;
     }
     .text-content-principal-section h2 {
-        font-size: 25px;
+        font-size: 20px;
         margin: 0px;
     }
     .text-content-principal-section h1 {
@@ -333,7 +312,6 @@ footer a:hover {
         width: 100%;
         height: auto;
     }
-    #subtitle {}
     .container-principal-section a {
         display: flex;
         justify-content: center;
@@ -355,11 +333,9 @@ footer a:hover {
         width: 100%;
         height: auto;
         padding-right: 20px;
+        background-color: #EFE2E9;
     }
-    .skills-section,
-    .quote-section,
-    .projects-section,
-    #contact-me {
-        width: 100%;
+    #subtitle {
+        font-size: 20px;
     }
 }
