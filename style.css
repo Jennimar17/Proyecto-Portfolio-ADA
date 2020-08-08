@@ -349,4 +349,13 @@ footer a:hover {
         height: auto;
         padding-right: 20px;
     }
+    .skills-section {
+        width: 600px;
+    }
+    .quote-section {
+        width: 600px;
+    }
+    .projects-section {
+        width: 600px;
+    }
 }
