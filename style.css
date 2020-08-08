@@ -100,7 +100,7 @@ li {
     color: #4B4B55;
 }
 
-#img-media-query {
+#burger-menu-query {
     display: none;
 }
 
@@ -327,5 +327,14 @@ footer a:hover {
         display: flex;
         justify-content: center;
         font-size: small;
+    }
+    .nav-bar {
+        display: none;
+    }
+    #burger-menu-query {
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        height: auto;
     }
 }
