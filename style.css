@@ -127,7 +127,6 @@ li {
     height: auto;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
 }
 
 .icons-skills-section img {
@@ -227,6 +226,7 @@ footer {
 .footer-bar {
     font-weight: 400;
     display: flex;
+    justify-content: center;
     background-color: transparent;
 }
 
