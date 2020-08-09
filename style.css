@@ -127,6 +127,9 @@ li {
     height: auto;
     display: flex;
     justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .icons-skills-section img {
@@ -284,12 +287,12 @@ footer a:hover {
 
 /*media querys*/
 
-@media(max-width:600px) {
+@media(max-width:500px) {
     .img-principal-section {
         display: none;
     }
     .container-principal-section {
-        width: 600px;
+        width: 100%;
         height: auto;
         display: flex;
         justify-content: center;
@@ -307,13 +310,13 @@ footer a:hover {
         display: none;
     }
     #img-media-query {
-        display: flex;
         width: 100%;
         height: auto;
+        display: flex;
+        justify-content: center;
     }
     #img-media-query img {
-        display: flex;
-        width: 100%;
+        width: 50%;
         height: auto;
     }
     .container-principal-section a {
@@ -330,7 +333,6 @@ footer a:hover {
     .footer-bar {
         font-weight: 400;
         display: flex;
-        align-items: stretch;
     }
     #burger-menu-query {
         display: flex;
