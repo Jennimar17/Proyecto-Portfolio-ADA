@@ -10,6 +10,7 @@ body {
 /*barra de navegacion*/
 
 .nav-bar {
+    width: 100%;
     display: flex;
     align-items: center;
     list-style-type: none;
@@ -61,7 +62,7 @@ li {
     height: auto;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     background-color: #EFE2E9;
 }
 
@@ -335,7 +336,6 @@ footer a:hover {
         display: flex;
         width: 100%;
         height: auto;
-        padding-right: 20px;
         background-color: #EFE2E9;
     }
     #subtitle {
