@@ -109,9 +109,10 @@ li {
     background-color: white;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
     text-align: center;
-    padding-bottom: 15px;
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
 
 .text-skills-section h1 {
@@ -123,13 +124,11 @@ li {
 }
 
 .icons-skills-section {
-    width: 100%;
+    width: 50%;
     height: auto;
     display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .icons-skills-section img {
@@ -150,7 +149,8 @@ li {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     color: white;
     /*estilo fachero de fondo de la seccion quote*/
     background-image: linear-gradient(to bottom, #ff5487, #f14485, #e33283, #d41f82, #c40080);
@@ -174,7 +174,8 @@ li {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding-bottom: 35px;
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
 
 .projects-section h1 {
@@ -342,5 +343,9 @@ footer a:hover {
     }
     #subtitle {
         font-size: 20px;
+    }
+    .bar-projects {
+        display: flex;
+        align-items: center;
     }
 }
