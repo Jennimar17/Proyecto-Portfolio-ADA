@@ -25,7 +25,7 @@ lo cual me permite un primer salto en la realizacion de diseños adaptables, dej
 
 # Project-Portfolio-ADA
 
-Project carried out as part of the 1st project of the [ADA ITW] Front-End Web Development career.
+Project carried out as part of the 1st project of the [ADA ITW](https://adaitw.org/). Front-End Web Development career.
 
 
 ## Technologies
