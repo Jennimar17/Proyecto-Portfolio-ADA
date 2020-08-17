@@ -1,6 +1,6 @@
 # Proyecto-Portfolio-ADA
 
-Proyecto realizado como parte del 1er proyecto de la carrera Desarrollo Web Front-End de [ADA ITW](https://collectednotes.com).
+Proyecto realizado como parte del 1er proyecto de la carrera Desarrollo Web Front-End de [ADA ITW](https://adaitw.org/).
 
 
 ## Tecnologías
