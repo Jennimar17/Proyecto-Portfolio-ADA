@@ -39,7 +39,7 @@ The technologies used in this project are:
 ## Information
 
 The project was carried out based on the following project: [Model Template] (https://frontend-proyecto-portfolio.adaitw.org/).
-The design is respected but the colors, images and fonts were modified to my liking. The use of ** CSS Flexible Box Layout ** predominates
+The design is respected but the colors, images and fonts were modified to my liking. The use of **CSS Flexible Box Layout** predominates
 which allows me a first leap in the realization of adaptable designs, leaving the box model behind a bit.
 
 ## Link
