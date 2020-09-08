@@ -3,6 +3,8 @@ body {
     font-family: 'Montserrat', sans-serif;
     color: #4B4B55;
     margin: 0px;
+
+    /* esta orden no funciona en body */
     overflow-x: hidden;
 }
 
@@ -10,6 +12,8 @@ body {
 /*barra de navegacion*/
 
 .nav-bar {
+    /* este width de 100% te trae problemas en medidas mas pequeñas. ademas no es necesaria, 
+    ya que el width se pone en 100% por defecto.  */
     width: 100%;
     display: flex;
     align-items: center;
@@ -37,7 +41,9 @@ li {
 
 .dark-buttom {
     background-color: #A7007D;
+    /* no es necesario agregar px cuando la medida es 0 */
     border: 0px;
+    /* preferimos usar todos los colores en HEX: #FFFFFF en este caso */
     color: white;
     display: flex;
     justify-content: center;
@@ -89,6 +95,8 @@ li {
     font-weight: 700;
     font-family: 'Satisfy', cursive;
     /*copie y pegue de internet un estilo fachero de degradado de texto*/
+
+    /* se ve muy bien :D */
     background: -webkit-linear-gradient(left top, #DA86A9, #F28C8E);
     background: linear-gradient(to bottom right, #DA86A9, #F28C8E);
     -webkit-background-clip: text;
@@ -104,6 +112,7 @@ li {
 /*seccion de skills*/
 
 .skills-section {
+    /* no es necesario ni width 100, ni height auto, ni background color. los tres se ponen asi por defecto */
     width: 100%;
     height: auto;
     background-color: white;
@@ -143,6 +152,7 @@ li {
 /*seccion de frase memorable*/
 
 .quote-section {
+    /* no es necesario width 100% ni height auto aqui */
     width: 100%;
     height: auto;
     display: flex;
@@ -166,6 +176,7 @@ li {
 /*seccion mis proyectos*/
 
 .projects-section {
+    /* no es necesario ni width 100, ni height auto, ni background color. los tres se ponen asi por defecto */
     width: 100%;
     height: auto;
     background-color: white;
@@ -180,6 +191,8 @@ li {
 
 .projects-section h1 {
     font-weight: 800;
+
+    /* estas dos ordenes no son necesarias, ya que h1 no tiene descendientes y flex se aplica a los descendientes */
     display: flex;
     justify-content: center;
 }
@@ -220,6 +233,7 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    /* no es necesario alig content ya que no estamos en flex-wrap */
     align-content: center;
     align-items: center;
     padding: 20px;

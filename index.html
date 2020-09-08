@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- Tu portfolio esta en español, asi que corresponde que el lenguaje del html sea "es" -->
 <html lang="en">
 
 <head>
@@ -29,6 +30,8 @@
             </a>
         </ul>
     </nav>
+
+    <!-- este icono deberia ir dentro de nav -->
     <div id="burger-menu-query">
         <a href="./index.html">
             <img src="img/burger-menu.png" />
@@ -40,12 +43,17 @@
     <section class="container-principal-section">
         <!-- texto de la seccion principal-->
         <div class="text-content-principal-section">
+
+            <!-- Aqui creo que hay una confusion de jerarquia. Este es tu portfolio personal:
+            queremos que la gente lo encuentre al buscarte, no al buscar cualquiera desarrolladora. 
+            Por ese motivo, creo que tu nombre tendria que estar en el h1, y desarrolladora como h2   -->
             <h2>HOLA! SOY JENIFFER H.</h2>
             <h1>DESARRO-<br />LLADORA</h1>
             <!-- imagen solo de media query -->
             <div id="img-media-query">
                 <img src="./img/desarrolladora-query.png" alt="">
             </div>
+            <!-- Seria preferible resolver esto con dos span (y p con flex direction column) que con un br -->
             <p id="subtitle">Amante de la Medicina, el Diseño <br/>y Narradora Compulsiva de Historias..!</p>
             <a href="#skills">
                 <p class="dark-buttom">LO QUE HAGO</p>
@@ -58,9 +66,12 @@
     </section>
 
     <!-- seccion skills -->
+    <!-- esto deberia ser un section, no un div -->
     <div class="skills-section" id="skills">
         <!-- texto de seccion skills -->
         <div class="text-skills-section">
+                <!-- Solo debe haber un h1 por pagina: es el texto mas importante de nuestra web. 
+                Este titulo deberia ser un h2, ya que su jerarquia es menor a la de tu nombre.  -->
             <h1>MIS CONOCIMIENTOS</h1>
             <h3>Lorem ipsum dolor sit amet consectetur <br /> adipisicing elit. Beatae eaque neque molestias
                 <br />consequuntur vel ab quas architecto.</h3>
@@ -98,7 +109,11 @@
         </div>
     </div>
     <!-- seccion de frase memorable -->
+
+    <!-- deberia ser un section, no un div -->
     <div class="quote-section">
+
+        <!-- No es bueno separar el texto con br. Es preferible darle un width -->
         <p>"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi quaerat aspernatur <br />laboriosam doloremque iste perspiciatis veniam culpa beatae magni quo natus nostrum, laudantium
             <br />exercitationem sit minima aut totam praesentium aliquam".
         </p>
@@ -106,9 +121,13 @@
     </div>
 
     <!-- seccion de  proyectos -->
+
+    <!-- deberia ser un section, no un div -->
     <div class="projects-section" id="projects">
         <!-- titulo de seccion proyectos -->
         <div class="title-projects-section">
+                <!-- Solo debe haber un h1 por pagina: es el texto mas importante de nuestra web. 
+                Este titulo deberia ser un h2, ya que su jerarquia es menor a la de tu nombre.  -->
             <h1>MIS PROYECTOS</h1>
         </div>
         <!-- barra de proyectos -->
